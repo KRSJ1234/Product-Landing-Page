@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(173, 241, 179);
+    
+}
+
+
+
+#nav-link{
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+.general-div{
+    width: 50%;
+    margin: auto;
+    
+}
+
+#About-para{
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#form{
+    width: 50%;
+    margin: auto;
+}
