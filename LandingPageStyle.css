@@ -41,9 +41,7 @@ html{
     font-family: 'Fredoka', sans-serif;
     font-size: 1rem;
     text-decoration: none;
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 100%;
+    width: fit-content;
     color: rgb(23, 56, 45);
     
 
@@ -56,6 +54,11 @@ html{
 }
 #nav-bar{
     display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    min-width: 20rem;
+    max-width: 30rem;
+
 
 }
 #header-div-stationary{
@@ -114,8 +117,9 @@ html{
 }
 
 #logo-div{
-    width: 30rem;
+    width: 30vw;
     justify-content: center;
     align-items: center;
+    
 }
 
