@@ -1,3 +1,12 @@
+@media screen and (max-width: 600px) {
+    body{
+        background-color: rgb(90, 169, 235);
+
+    }
+    
+    
+}
+
 html{
     background-color: rgb(173, 241, 179);
     font-size: 100%;
@@ -13,6 +22,7 @@ html{
     align-items: center;
     justify-content: space-around;
     height: max-content;
+    z-index: 0;
 
 }
 
@@ -31,11 +41,16 @@ html{
     font-family: 'Fredoka', sans-serif;
     font-size: 1rem;
     text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    color: rgb(23, 56, 45);
+    
 
 }
 
 .nav-link:hover{
-    font-size: 1.3rem;
+    color: bisque;
     cursor: pointer;
     
 }
@@ -53,14 +68,10 @@ html{
 
 }
 
-#header-img{
-    width: 2rem;
-    height: auto;
-    padding: 1rem 1rem 1rem 1rem;
-}
 
 .general-div{
-    display: block;
+
+    padding-top: 10rem;
     width: 50%;
     margin: auto;
     
@@ -102,4 +113,9 @@ html{
     margin: auto;
 }
 
+#logo-div{
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+}
 
